@@ -8,4 +8,4 @@ $(GONEW):
 
 .PHONY: go-app
 go-app: $(GONEW)
-	@$(GONEW) github.com/knwoop/gonew-subdir-example/lib/template1 github.com/knwoop/gonew-subdir-example/app/$(app) ./app/$(app)
+	@$(GONEW) github.com/knwoop/gonew-subdir-example/lib/template github.com/knwoop/gonew-subdir-example/app/$(app) ./app/$(app)
